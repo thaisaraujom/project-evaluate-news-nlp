@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluate a News Article with NLP</title>
+</head>
+<body>
+    <header>
+        <h1>Evaluate a News Article with NLP</h1>
+    </header>
+
+    <main>
+        <section id="entry">
+            <h2>Enter a URL</h2>
+            <form id="form" onsubmit="return Client.handleSubmit(event)">
+                <div class="input-group">
+                    <input id="name" type="text" name="input" value="" placeholder="Enter valid URL">
+                <button type="submit" name="" value="Submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">Submit</button>
+                <div id="error-message"></div>
+            </form>
+        </section>
+
+        <section id="entryResult">
+            <h2>Results</h2>
+            <div id="results">
+                <div class="text-results" id="score_tag"></div>
+                <div class="text-results" id="agreement"></div>
+                <div class="text-results" id="subjectivity"></div>
+                <div class="text-results" id="confidence"></div>
+                <div class="text-results" id="irony"></div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
