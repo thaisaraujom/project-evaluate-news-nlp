@@ -14,7 +14,9 @@ Then, follow these steps:
 
 1. **Clone the Repository**
 
-   `git clone <repository-url>`
+   ```sh
+   git clone https://github.com/thaisaraujom/project-evaluate-news-nlp.git
+   ```
 
 2. **Install Dependencies**
 
