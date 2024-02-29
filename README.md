@@ -67,7 +67,6 @@ npm run test
   - `client/`: front-end scripts and styles.
   - `server/`: back-end server logic.
 - `__test__/`: jest test suites.
-- `node_modules/`: the heart of Node.js, housing all modules.
 - `views/`: HTML canvases of the web application.
 
 
