@@ -48,7 +48,7 @@ Then, follow these steps:
 Ensure the robustness of your application by running:
 
 ```sh
-npm test
+npm run test
 ```
 
 ## 📦 Dependencies
